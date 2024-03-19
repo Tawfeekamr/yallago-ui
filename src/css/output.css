@@ -544,17 +544,15 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.px-12 {
-  padding-left: 3rem;
-  padding-right: 3rem;
+.font-inter {
+  font-family: Inter;
 }
 
-.px-1 {
-  padding-left: 0.25rem;
-  padding-right: 0.25rem;
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
 }
 
-.text-blue-100 {
-  --tw-text-opacity: 1;
-  color: rgb(219 234 254 / var(--tw-text-opacity));
+.leading-normal {
+  line-height: 1.5;
 }
