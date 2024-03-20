@@ -8,8 +8,9 @@ module.exports = {
     extend: {
       colors: {
          gray: {
-           lighter: "#E5E5E6",
            light: "#E7E7E7",
+           lighte:'#FAFAFB',
+           lighter: "#E5E5E6",
            soft: "#676879",
            dark: "#808080",
          },
@@ -25,7 +26,14 @@ module.exports = {
       },
       margin: {
 
-      }
+      },
+      height: {
+        '484': '30.25rem',
+        '340': '21.25rem',
+        '426': '26.625rem',
+
+      },
+      
     },
   },
   plugins: [],
