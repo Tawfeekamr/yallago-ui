@@ -1304,6 +1304,11 @@ video {
   padding-bottom: 2rem;
 }
 
+.py-0 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
 .pb-12 {
   padding-bottom: 3rem;
 }
@@ -1849,6 +1854,11 @@ video {
     padding-bottom: 0.875rem;
   }
 
+  .sm\:py-12 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
   .sm\:pr-24 {
     padding-right: 6rem;
   }
@@ -1970,6 +1980,11 @@ video {
   .md\:py-4 {
     padding-top: 1rem;
     padding-bottom: 1rem;
+  }
+
+  .md\:py-0 {
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 
   .md\:text-2xl {
