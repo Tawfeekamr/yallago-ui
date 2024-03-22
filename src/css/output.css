@@ -935,8 +935,36 @@ video {
   width: 100%;
 }
 
+.w-24 {
+  width: 6rem;
+}
+
+.w-9\/12 {
+  width: 75%;
+}
+
+.w-7\/12 {
+  width: 58.333333%;
+}
+
+.w-60 {
+  width: 15rem;
+}
+
+.w-56 {
+  width: 14rem;
+}
+
 .min-w-96 {
   min-width: 24rem;
+}
+
+.min-w-80 {
+  min-width: 20rem;
+}
+
+.min-w-72 {
+  min-width: 18rem;
 }
 
 .max-w-screen-xl {
@@ -1673,6 +1701,10 @@ video {
     width: 58.333333%;
   }
 
+  .sm\:w-56 {
+    width: 14rem;
+  }
+
   .sm\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -2092,8 +2124,16 @@ video {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
+  .lg\:flex-col {
+    flex-direction: column;
+  }
+
   .lg\:place-items-end {
     place-items: end;
+  }
+
+  .lg\:justify-start {
+    justify-content: flex-start;
   }
 
   .lg\:justify-end {
