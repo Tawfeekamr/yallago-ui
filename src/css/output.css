@@ -1863,6 +1863,10 @@ video {
     padding-right: 6rem;
   }
 
+  .sm\:pt-8 {
+    padding-top: 2rem;
+  }
+
   .sm\:text-start {
     text-align: start;
   }
