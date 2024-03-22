@@ -1381,6 +1381,10 @@ video {
   padding-bottom: 6rem;
 }
 
+.pt-0 {
+  padding-top: 0px;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1857,6 +1861,11 @@ video {
   .sm\:py-12 {
     padding-top: 3rem;
     padding-bottom: 3rem;
+  }
+
+  .sm\:py-8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 
   .sm\:pr-24 {
@@ -2469,6 +2478,10 @@ video {
 
   .xl\:pr-36 {
     padding-right: 9rem;
+  }
+
+  .xl\:pt-0 {
+    padding-top: 0px;
   }
 
   .xl\:text-2xl {
