@@ -1309,6 +1309,11 @@ video {
   padding-bottom: 0px;
 }
 
+.px-1 {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
 .pb-12 {
   padding-bottom: 3rem;
 }
@@ -1664,6 +1669,10 @@ video {
 
   .sm\:mt-8 {
     margin-top: 2rem;
+  }
+
+  .sm\:mt-4 {
+    margin-top: 1rem;
   }
 
   .sm\:block {
@@ -2368,6 +2377,14 @@ video {
 }
 
 @media (min-width: 1280px) {
+  .xl\:mb-14 {
+    margin-bottom: 3.5rem;
+  }
+
+  .xl\:mt-14 {
+    margin-top: 3.5rem;
+  }
+
   .xl\:block {
     display: block;
   }
