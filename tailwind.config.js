@@ -14,7 +14,7 @@ module.exports = {
            soft: "#676879",
            dark: "#808080",
            buttondark:"#F1EDFE",
-           bridge:"#e7e7e6"
+           bridge:"#e7e7e6",
          },
         black: {
            soft: "#121212"
@@ -28,7 +28,11 @@ module.exports = {
         purple: {
           dark: "#5137A6",
           soft:"#8A69F6",
+        },
+        green:{
+          soft:"#34B166"
         }
+
 
       },
       margin: {
