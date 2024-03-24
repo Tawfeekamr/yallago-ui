@@ -13,6 +13,8 @@ module.exports = {
            lighter: "#E5E5E6",
            soft: "#676879",
            dark: "#808080",
+           buttondark:"#F1EDFE",
+           bridge:"#e7e7e6"
          },
         black: {
            soft: "#121212"
@@ -22,7 +24,12 @@ module.exports = {
         },
         red: {
            soft: "#ED4D55"
+        },
+        purple: {
+          dark: "#5137A6",
+          soft:"#8A69F6",
         }
+
       },
       margin: {
 
@@ -31,8 +38,12 @@ module.exports = {
         '484': '30.25rem',
         '340': '21.25rem',
         '426': '26.625rem',
+        '551':'34.438rem'
 
       },
+      width:{
+        '462':'28.875rem'
+      }
       
     },
   },
