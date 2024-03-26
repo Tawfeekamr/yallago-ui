@@ -17,13 +17,15 @@ module.exports = {
            bridge:"#e7e7e6",
          },
         black: {
-           soft: "#121212"
+           soft: "#121212",
+           dark:"#18202F"
         },
         pink: {
            soft: "#FF626A"
         },
         red: {
-           soft: "#ED4D55"
+           soft: "#ED4D55",
+           dark:"#D41E27"
         },
         purple: {
           dark: "#5137A6",
