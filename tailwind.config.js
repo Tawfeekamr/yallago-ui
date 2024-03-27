@@ -15,6 +15,9 @@ module.exports = {
            dark: "#808080",
            buttondark:"#F1EDFE",
            bridge:"#e7e7e6",
+           rounded:"#E7E7E9",
+           grayborder:"#F0F0F0",
+           text:"#9B9DA3"
          },
         black: {
            soft: "#121212",
@@ -25,7 +28,8 @@ module.exports = {
         },
         red: {
            soft: "#ED4D55",
-           dark:"#D41E27"
+           dark:"#D41E27",
+           rounded:"#F44A4A"
         },
         purple: {
           dark: "#5137A6",
