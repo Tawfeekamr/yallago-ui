@@ -17,7 +17,9 @@ module.exports = {
            bridge:"#e7e7e6",
            rounded:"#E7E7E9",
            grayborder:"#F0F0F0",
-           text:"#9B9DA3"
+           text:"#9B9DA3",
+           textsoft:"#B7B7B7",
+           range:"#E3E9ED"
          },
         black: {
            soft: "#121212",
@@ -29,7 +31,8 @@ module.exports = {
         red: {
            soft: "#ED4D55",
            dark:"#D41E27",
-           rounded:"#F44A4A"
+           rounded:"#F44A4A",
+           textpackage:"#F06A71"
         },
         purple: {
           dark: "#5137A6",
