@@ -23,7 +23,8 @@ module.exports = {
          },
         black: {
            soft: "#121212",
-           dark:"#18202F"
+           dark:"#18202F",
+           "#000":"#000000"
         },
         pink: {
            soft: "#FF626A"
@@ -52,7 +53,6 @@ module.exports = {
         '340': '21.25rem',
         '426': '26.625rem',
         '551':'34.438rem'
-
       },
       width:{
         '462':'28.875rem'

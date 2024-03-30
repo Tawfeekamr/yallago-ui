@@ -10,7 +10,7 @@
 </head>
 <body class="font-inter">
     <main>
-        <section class="bg-cover no-repeats h-4/5 sm:h-screen lg:h-4/5 bg-center" style="background-image: url(./assets/img/hero-cheaker.png)">
+        <section class="bg-cover no-repeats h-svh sm:h-screen lg:h-4/5  bg-center" style="background-image: url(./assets/img/hero-cheaker.png)">
             <header class="lg:px-10 px-4 pt-2 text-lg ">
                 <nav class="flex justify-between items-center">
                     <div class="flex justify-center items-center">
@@ -35,60 +35,309 @@
                     </div>
                 </nav>
             </header>
-            <div class="lg:px-0  h-4/5 flex flex-col justify-center">
+            <div class="lg:px-0 h-svh lg:h-full  flex flex-col justify-center">
                 <div class="flex  flex-col text-white text-center lg:px-2 ">
-                    <h2 class=" text-3xl sm:text-5xl lg:text-7xl  font-semibold">Travel Visa Requirements</h2>
-                    <p class="text-base sm:text-lg lg:text-2xl font-normal text-gray-lighter lg:px-72 sm:px-20 px-5 mt-6">Sometimes a journey of a thousand miles begins with a visa. Check your destination and apply online for any visa in the world.</p>
-                    <div class="lg:px-24 lg:mt-14 mt-14 sm:mt-12 sm:px-2 px-5">
-                        <div
-                            class="flex sm:flex-row flex-col items-center px-2 sm:bg-white sm:rounded-full sm:w-full lg:h-20 sm:h-14">
-                            <div
-                                class="flex sm:w-56 w-full sm:bg-none bg-white sm:rounded-none rounded-full justify-between sm:ml-8 sm:px-0 px-3.5 py-2">
-                                <input type="text" placeholder="For citizen of"
-                                    class="lg:text-xl sm:text-base text-sm text-gray-dark font-normal sm:w-32">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                    fill="none">
-                                    <path
-                                        d="M4.24106 7.7459C4.53326 7.44784 4.99051 7.42074 5.31272 7.66461L5.40503 7.7459L12 14.4734L18.595 7.7459C18.8872 7.44784 19.3444 7.42074 19.6666 7.66461L19.7589 7.7459C20.0511 8.04396 20.0777 8.51037 19.8386 8.83904L19.7589 8.93321L12.582 16.2541C12.2898 16.5522 11.8325 16.5793 11.5103 16.3354L11.418 16.2541L4.24106 8.93321C3.91965 8.60534 3.91965 8.07376 4.24106 7.7459Z"
-                                        fill="#808080" />
-                                </svg>
+                    <h2 class=" text-3xl sm:text-5xl lg:text-7xl mb-6 font-semibold px-10 sm:px-0">Travel Visa Requirements</h2>
+                    <p class="text-base sm:text-lg lg:text-2xl font-normal mb-14 text-gray-lighter lg:px-72 sm:px-20 px-5">Sometimes a journey of a thousand miles begins with a visa. Check your destination and apply online for any visa in the world.</p>
+                    <div class="px-4 xl:px-0">
+                        <div class="sm:block hidden">
+                            <div class=" max-w-screen-xl mx-auto w-full h-16 bg-white rounded-full flex justify-between items-center px-1">
+                                <div class="flex justify-between items-center w-full lg:w-1/3 px-7 mx-2 border-r-2" >
+                                    <input class=" placeholder:text-xl placeholder:font-normal placeholder:text-gray-dark" type="text" placeholder="For citizen of">
+                                <a href="#">
+                                    <img src="./assets/img/Arrow-visa.svg" alt="arrow">
+                                </a>
+                                </div>
+                                
+                                <div class="lg:flex justify-between items-center w-full md:w-1/3 px-7 mx-2 border-r-2 hidden" >
+                                
+                                    <input class="placeholder:text-xl placeholder:font-normal placeholder:text-gray-dark" type="text" placeholder="For citizen of">
+                                    <a href="#">
+                                        <img src="./assets/img/Arrow-visa.svg" alt="arrow">
+                                    </a>
+                                </div>
+                                <div class="xl:flex justify-between items-center w-full md:w-1/3 px-7 mx-2 hidden" >
+                                
+                                    <input class="placeholder:text-xl placeholder:font-normal placeholder:text-gray-dark" type="text" placeholder="For citizen of">
+                                    <a href="#">
+                                        <img src="./assets/img/Arrow-visa.svg" alt="arrow">
+                                    </a>
+                                    </div>
+                            <button class=" py-3.5 px-10 bg-red-soft rounded-full text-base md:text-lg xl:text-xl font-normal text-white  text-nowrap">Check requirements</button>
                             </div>
-                            <div
-                                class="flex sm:w-52  justify-between sm:my-0 my-2 lg:mx-20 sm:mx-10  w-full sm:bg-none bg-white sm:rounded-none rounded-full  sm:px-0 px-3.5 py-2 ">
-                                <input type="text" placeholder="Traveling to"
-                                    class="lg:text-xl sm:text-base text-sm text-gray-dark font-normal sm:w-28">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                    fill="none">
-                                    <path
-                                        d="M4.24106 7.7459C4.53326 7.44784 4.99051 7.42074 5.31272 7.66461L5.40503 7.7459L12 14.4734L18.595 7.7459C18.8872 7.44784 19.3444 7.42074 19.6666 7.66461L19.7589 7.7459C20.0511 8.04396 20.0777 8.51037 19.8386 8.83904L19.7589 8.93321L12.582 16.2541C12.2898 16.5522 11.8325 16.5793 11.5103 16.3354L11.418 16.2541L4.24106 8.93321C3.91965 8.60534 3.91965 8.07376 4.24106 7.7459Z"
-                                        fill="#808080" />
-                                </svg>
+                        </div>
+                        <div class="sm:hidden block space-y-2">
+                            <div class="w-full h-11 bg-white rounded-full flex justify-between items-center px-4">
+                                <input class="placeholder:text-sm placeholder:font-normal placeholder:text-gray-dark" type="text" placeholder="For citizen of">
+                                <a href="#">
+                                    <img src="./assets/img/Arrow-visa.svg" alt="arrow">
+                                </a>
                             </div>
-                            <div
-                                class="flex sm:w-44 justify-between w-full sm:bg-none bg-white sm:rounded-none rounded-full  sm:px-0 sm:py-0 px-3.5 py-2">
-                                <input type="text" placeholder="Living in"
-                                    class="lg:text-xl sm:text-base text-sm text-gray-dark font-normal sm:w-20">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                    fill="none">
-                                    <path
-                                        d="M4.24106 7.7459C4.53326 7.44784 4.99051 7.42074 5.31272 7.66461L5.40503 7.7459L12 14.4734L18.595 7.7459C18.8872 7.44784 19.3444 7.42074 19.6666 7.66461L19.7589 7.7459C20.0511 8.04396 20.0777 8.51037 19.8386 8.83904L19.7589 8.93321L12.582 16.2541C12.2898 16.5522 11.8325 16.5793 11.5103 16.3354L11.418 16.2541L4.24106 8.93321C3.91965 8.60534 3.91965 8.07376 4.24106 7.7459Z"
-                                        fill="#808080" />
-                                </svg>
+                            <div class="w-full h-11 bg-white rounded-full flex justify-between items-center px-4">
+                                <input class="placeholder:text-sm placeholder:font-normal placeholder:text-gray-dark" type="text" placeholder="Traveling to">
+                                <a href="#">
+                                    <img src="./assets/img/Arrow-visa.svg" alt="arrow">
+                                </a>
                             </div>
-                            <div
-                                class="bg-red-soft rounded-full mt-2 sm:my-0 lg:py-3.5 lg:px-10  lg:ml-12 sm:ml-6  lg:w-auto w-full sm:px-2 sm:py-3 px-3.5 py-2">
-                                <button class="lg:text-xl sm:text-base text-sm font-normal">Check requirements</button>
+                            <div class="w-full h-11 bg-white rounded-full flex justify-between items-center px-4">
+                                <input class="placeholder:text-sm placeholder:font-normal placeholder:text-gray-dark" type="text" placeholder="Living in">
+                                <a href="#">
+                                    <img src="./assets/img/Arrow-visa.svg" alt="arrow">
+                                </a>
+                            </div>
+                            <div class="w-full h-11 bg-red-soft rounded-full flex justify-center items-center px-4">
+                               <button class="text-sm font-medium text-white">Check requiremennts</button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
-
-
         </section>
+        <section class="bg-gray-lighte py-9 ">
+            <div class="max-w-screen-xl mx-auto flex justify-between items-center px-2 xl:px-0">
+            <img class="w-28 sm:w-48 h-16" src="./assets/img/Artwork.svg" alt="Artwork">
+            <img class="w-28 sm:w-48 h-16" src="./assets/img/UK.svg" alt="UK">
+            <img class="hidden lg:block" src="./assets/img/Bls.svg" alt="bls">
+            <img class="hidden md:block" src="./assets/img/emblem.svg" alt="emblem">
+            <img class="w-28 md:w-48 h-16" src="./assets/img/evisa.svg" alt="evisa">
+            <img class="hidden xl:block" src="./assets/img/pngaaa.svg" alt="pangaa">
+            </div>
+        </section>
+        <section class="max-w-screen-xl mx-auto mt-10 xl:mt-20 px-2 xl:px-0">
+                <h2 class="lg:text-5xl text-3xl text-black-soft font-semibold text-center mb-6">Visa type</h2>
+                <div class=" flex justify-between mb-6 xl:mb-7">
+                    <button class="bg-red-soft lg:text-xl sm:text-lg text-sm font-normal text-white rounded-full sm:py-3.5 sm:px-10 py-3 px-8">Tourist</button>
+                    <button class="sm:bg-red-soft bg-gray-lighter lg:text-xl sm:text-lg text-sm font-normal sm:text-white text-gray-dark rounded-full sm:py-3.5 sm:px-10 py-2 px-8">Journalist</button>
+                    <button class=" sm:block hidden bg-red-soft lg:text-xl sm:text-lg font-normal text-white rounded-full sm:py-3 sm:px-10">Limited stay</button>
+                    <button class=" bg-red-soft lg:text-xl sm:text-lg font-normal text-white rounded-full sm:py-3.5 sm:px-10 py-3 px-8">Official</button>
+                    <button class="hidden lg:block bg-red-soft lg:text-xl sm:text-lg font-normal text-white rounded-full sm:py-3.5 sm:px-10">Scientific research</button>
+                    <button class="hidden lg:block bg-red-soft lg:text-xl sm:text-lg font-normal text-white rounded-full lg:py-3.5 lg:px-10">Transit</button>
+                </div>
+                <p class="lg:text-xl text-base font-normal sm:text-gray-dark text-black-#000 text-start xl:text-center">A complete and detailed list of required documents will be provided when placing an order.</p>
+            
+        </section>
+        <section class="mx-auto max-w-screen-xl sm:mt-8 mt-6  px-2 xl:px-0">
+            <div class="bg-gray-lighte rounded-3xl lg:p-10 lg:pb-9 sm:p-8 sm:pb-7 p-6">
+                <h2 class="lg:text-3xl text-2xl font-normal mb-8 xl:mb-11 text-black-#000">Apply your visa with us <span class="font-semibold text-black-#000">in 3 Steps!</span></h2>
+                <div class="flex ">
+                    <div>
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="20" cy="20" r="19" stroke="#65AC44" stroke-width="2" />
+                            <path
+                                d="M17 24.2001L12.8 20.0001L11.4 21.4001L17 27.0001L29 15.0001L27.6 13.6001L17 24.2001Z"
+                                fill="#65AC44" />
+                        </svg>
+                    </div>
+                
+                    <div class="sm:ml-7 ml-4">
+                        <h5 class="xl:text-xl text-lg text-black-#000 font-semibold">Fill your form </h5>
+                        <p class="xl:text-lg text-base text-gray-dark font-normal mt-4">Receive important infromation from the Embassy about safety conditions in your destination country, heping you make informed decisions about your trave plans</p>
+                    </div>
+                </div>
+                <div class="flex xl:my-9 my-8">
+                    <div>
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="20" cy="20" r="19" stroke="#65AC44" stroke-width="2" />
+                            <path
+                                d="M17 24.2001L12.8 20.0001L11.4 21.4001L17 27.0001L29 15.0001L27.6 13.6001L17 24.2001Z"
+                                fill="#65AC44" />
+                        </svg>
+                    </div>
+                    <div class="sm:ml-7 ml-4">
+                        <h5 class="lg:text-xl text-lg text-black-soft font-semibold">Submission successfuly </h5>
+                        <p class="lg:text-lg text-base text-gray-dark font-normal mt-4">Help the US Embassy contact you
+                            in an
+                            academy, whether natural disaster civil unrest, or family emergency</p>
+                    </div>
+                </div>
+                <div class="flex">
+                    <div>
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="20" cy="20" r="19" stroke="#65AC44" stroke-width="2" />
+                            <path
+                                d="M17 24.2001L12.8 20.0001L11.4 21.4001L17 27.0001L29 15.0001L27.6 13.6001L17 24.2001Z"
+                                fill="#65AC44" />
+                        </svg>
+                    </div>
+                    <div class="sm:ml-7 ml-4 ">
+                        <h5 class="lg:text-xl text-lg text-black-soft font-semibold">Get your visa</h5>
+                        <p class="lg:text-lg text-base text-gray-dark font-normal mt-4">Help family and friends get in
+                            touch with
+                            you
+                            in an emergency</p>
+                    </div>
+                </div>
+                <div class="flex sm:mt-12 mt-8 justify-center text-white">
+                    <button class="lg:text-xl sm:text-lg text-sm  font-normal rounded-full bg-red-soft sm:py-3.5 sm:px-10 
+                        py-3 px-28">Apply
+                        Now</button>
+                </div>
+            </div>
+        </section>
+        <section class="mx-auto max-w-screen-xl xl:pb-2 mt-6 px-5 lg:px-0">
 
+            <h5 class="lg:text-xl text-lg font-semibold text-black-soft">Additional documents required</h5>
+            <p class="lg:text-xl sm:text-lg text-base font-normal sm:text-black-soft text-black sm:my-6 mt-4 mb-6">You’ll need to have a tuberculosis (TB) test if you’re coming to the UK for more than 6 months. You will not need a TB test if any of the following apply:</p>
+
+            <div class="flex">
+                <span class=" font-normal sm:text-black-soft mr-1">-</span>
+                <p class="lg:text-xl sm:text-lg text-base font-normal text-black-soft">you’re a diplomat accredited to the UK</p>
+            </div>
+
+
+            <div class="flex sm:my-4 my-2">
+                <span class=" font-normal text-black-soft mr-1">-</span>
+                <p class="lg:text-xl sm:text-lg text-base font-normal text-black-soft">you’re a returning UK resident and have not been away for more than 2 years</p>
+            </div>
+
+            <div class="flex">
+                <span class=" font-normal text-black-soft mr-1">-</span>
+                <p class="lg:text-xl sm:text-lg text-base font-normal text-black-soft lg:w-3/4">you lived for at least 6 months in a country where TB screening is not required by the UK, and you’ve been away from that country for no more than 6 months</p>
+            </div>
+        </section>
+        <section class="mx-auto max-w-screen-xl sm:mt-28 mt-20 px-2 lg:px-0 xl:pb-2">
+            <h2 class="font-semibold lg:text-5xl text-3xl text-black-soft text-center">How it works</h2>
+            <div class="grid sm:grid-cols-3 grid-cols-1 lg:gap-32 sm:gap-16 gap-8 sm:mt-14 mt-8 sm:px-0 px-10">
+                <div class="flex flex-col items-center text-center">
+                    <img src="./assets/img/card-visa.svg" alt="" class="sm:w-auto sm:h-auto  h-20">
+                    <h5 class="text-black-soft lg:text-2xl sm:text-base text-lg font-medium mt-6">Apply Online</h5>
+                    <p class="text-gray-dark lg:text-lg text-sm font-normal sm:mt-4 mt-2 px-0 xl:px-8">Secure online application saves time and checks for errors</p>
+                </div>
+                <div class="flex flex-col items-center text-center">
+                    <img src="./assets/img/card-visa-2.svg" alt="" class="sm:w-auto sm:h-auto  h-20">
+                    <h5 class=" lg:text-2xl sm:text-base text-lg font-medium text-black-soft mt-6">Mail Documents</h5>
+                    <p class="text-gray-dark lg:text-lg text-sm font-normal sm:mt-4 mt-2">No need to stand in line at the consulate, we will do it for you</p>
+                </div>
+                <div class="flex flex-col items-center text-center">
+                    <img src="./assets/img/card-visa-3.svg" alt="" class="sm:w-auto sm:h-auto  h-20">
+                    <h5 class=" lg:text-2xl sm:text-base text-lg font-medium text-black-soft mt-6">Receive Passport,
+                        Visa
+                    </h5>
+                    <p class="text-gray-dark lg:text-lg text-sm font-normal sm:mt-4 mt-2 px-0 xl:px-8">Real time status updates will keep you informed</p>
+                </div>
+            </div>
+        </section>
+        <section class="mx-auto max-w-screen-xl sm:mt-28 mt-20 lg:px-0 px-2 xl:pb-1">
+            <h2 class="font-semibold lg:text-5xl text-3xl text-black-soft text-center">Safe travel!</h2>
+            <p class="text-gray-dark font-normal lg:text-2xl sm:text-xl text-base  sm:mt-6 mt-4 text-center">Check our Covid-19 travel restrictions map for new entry rules</p>
+            <div class="grid sm:grid-cols-3 grid-cols-1 lg:gap-8 sm:gap-6 gap-8 sm:mt-14 mt-8">
+                <div class="text-center">
+                    <img src="./assets/img/people2.svg" alt="people" class="w-full">
+                    <h5 class="text-black-soft xl:text-2xl sm:text-base text-lg font-medium mt-6 text-center ">217 countries are open</h5>
+                    <p class="text-gray-dark xl:text-lg sm:text-xs text-sm font-medium text-center sm:mt-4 mt-2 px-4 ">The country has no formal restrictions on entry, but it does have other travel policies.</p>
+                </div>
+                <div class="text-center ">
+                    <img src="./assets/img/people1.svg" alt="people" class="w-full">
+                    <h5 class="text-black-soft xl:text-2xl sm:text-base text-lg font-medium mt-6">11 countries are partially open</h5>
+                    <p class="text-gray-dark xl:text-lg sm:text-xs text-sm font-medium sm:mt-4 mt-2 px-2">Entry to the country may depend on nationality or other special regulations.</p>
+                </div>
+                <div class="text-center">
+                    <img src="./assets/img/people.svg" alt="people" class="w-full">
+                    <h5 class="text-black-soft xl:text-2xl sm:text-base text-lg font-medium mt-6">2 closed countries</h5>
+                    <p class="text-gray-dark xl:text-lg sm:text-xs text-sm font-medium sm:mt-4 mt-2 px-2">Only citizens, or people in other special circumstances may enter the country.</p>
+                </div>
+            </div>
+        </section>
+        <section class="mx-auto max-w-screen-xl mt-20 xl:mt-32 xl:pb-1">
+            <div class="flex sm:flex-wrap flex-wrap-reverse justify-evenly text-center items-center lg:gap-36 sm:gap-12">
+                <img src="./assets/img/business-customer-service.svg" alt="business-customer-service" class="lg:w-auto sm:w-1/2 w-full">
+                <div>
+                    <h2 class="lg:text-5xl text-3xl font-semibold text-black-soft">Need help?</h2>
+                    <p class="lg:text-2xl text-base font-normal text-gray-dark sm:mt-6 mt-4">We are always ready 24/7 to serve you</p>
+                    <div class="flex sm:mt-14 my-14 sm:mb-0">
+                        <button class="flex items-center xl:gap-2 bg-white  rounded-full border border-red-soft xl:py-3.5 xl:px-8 sm:py-2 sm:px-2.5 py-3 px-6">
+                            <img src="./assets/img/chat.svg" alt="chat">
+                            <p class="lg:text-xl sm:text-sm text-base font-normal text-red-soft ml-2">Chat with us</p>
+                        </button>
+                        <button class="flex items-center xl:gap-2 bg-red-soft rounded-full lg:py-3.5 lg:px-8 sm:py-2 sm:px-4 lg:ml-6 ml-2 py-3 px-6">
+                            <img src="./assets/img/call.svg" alt="call">
+                            <p class="lg:text-xl sm:text-sm text-base font-normal text-white ml-2">Call with us</p>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+    <footer class="bg-black-soft mt-20 xl:mt-32 ">
+        <div class="max-w-screen-xl mx-auto grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4  py-12 space-y-10 sm:space-y-0 text-center sm:text-start px-2 sm:px-4">
+            <div class="mb-0 sm:mb-8  lg:mb-0">
+                <ul class="text-xs md:text-base  lg:text-lg font-medium  space-y-4">
+                    <li class="flex justify-center sm:justify-start"><a href="./index.html" ><img class="w-40 h-14" src="./assets/img/Yallabook-logo-light.png" alt="logo-light"></a></li>
+                    <li class="text-gray-dark  "><a href="#"  >128 Market St. 20193<br> Riyadh, KSA</a></li>
+                    <li class="text-gray-dark "><a href="#" >128 Market St. 20193 <br>Dubai, UAE</a></li>
+                    <li ><a href="#" ><span class="text-lg md:text-xl text-white">Get the App</span></a></li>
+                    <li ><a href="#"><button  class="py-3.5 px-14 lg:px-14 lg:py-2 text-base lg:text-lg bg-white  text-black-soft rounded-3xl  " type="button">Download app</button></a></li>
+                    
+                </ul>
+            </div>
+            <div class="text-gray-dark text-xs md:text-base  lg:text-lg font-medium">
+                <ul class=" space-y-4">
+                    <li ><a href="./packages.html">Packages</a></li>
+                    <li ><a href="#">Flight Tickets</a></li>
+                    <li ><a href="./details.html">Booking Hotels</a></li>
+                    <li ><a href="#">Transportations</a></li>
+                    <li ><a href="#">Apply Visa</a></li>
+                    <li ><a href="#">Apply Insurance</a></li>
+                  
+                </ul>
+            </div>
+            <div class="text-gray-dark text-xs md:text-base  lg:text-lg font-medium">
+                <ul class=" space-y-4" >
+                    <li ><a href="./visa.html">Visa Checker</a></li>
+                    <li ><a href="./policy.html">Privacy Policy</a></li>
+                    <li ><a href="./terms-condition.html">Terms & Conditions</a></li>
+                    <li ><a href="./blog-article.html">Articles & Blogs</a></li>
+                    <li ><a href="./center.html">FAQs</a></li>
+                    <li ><a href="./about-us.html">About Us</a></li>
+                    
+                </ul>
+            </div>
+            <div class="text-gray-dark text-xs md:text-base  lg:text-lg font-medium">
+                <ul class="space-y-4">
+                    <li><a href="#"><span class="text-lg md:text-xl text-white">Contact Us</span></a></li>
+                   <div class="flex justify-center sm:justify-start flex-row sm:flex-col space-y-0 sm:space-y-4 space-x-4 sm:space-x-0">
+                    <li class="flex items-center space-x-2" >
+                        <a href="#" ><span><img src="./assets/img/KSA.svg" alt="KSA"> </span></a>
+                        <span>00966</span>
+
+                    </li>
+                    <li class="flex items-center space-x-2">
+                        <a href="#" class="" ><span><img src="./assets/img/UAE.svg" alt="UAE"> </span></a>
+                        <span>00971</span>
+                    </li>
+                   </div>
+                    <li class="flex space-x-5 justify-center sm:justify-start ">
+                        <div class="bg-white w-9 h-9 rounded-full flex justify-center items-center">
+                        <a href="#" ><img src="./assets/img/facebook.svg" alt="facebook"></a>
+                        </div>
+                        <div class="bg-white w-9 h-9 rounded-full flex justify-center items-center">
+                        <a href="#" ><img src="./assets/img/whatsapp.svg" alt="whatsapp"></a>
+                        </div>
+                        <div class="bg-white w-9 h-9 rounded-full flex justify-center items-center">
+                            <a href="#"><img src="./assets/img/linkedin.svg" alt="linkedin"></a>
+                        </div>
+                        <div class="bg-white w-9 h-9 rounded-full flex justify-center items-center">
+                        <a href="#"><img src="./assets/img/instagram.svg" alt="instagram"></a>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="max-w-screen-xl mx-auto mt-5">
+            <hr>
+        </div>
+        <div class="max-w-screen-xl mx-auto text-gray-dark font-medium flex sm:justify-between sm:flex-row flex-col text-center space-y-6 sm:space-y-0 pt-8 pb-14 px-2 xl:px-0"> 
+            <span class= "text-xs md:text-base  lg:text-lg">
+                <a href="#">© 2022 Yallabook • All rights reserved.</a>
+            </span>
+            <span class=" text-xs md:text-base  lg:text-lg ">
+                <a href="#">Powered by Yalla Travel KSA and Rezbook UAE</a>
+            </span>
+        </div>
+        
+        
+    </footer>
     
 </body>
 </html>
