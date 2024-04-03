@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/output.css">
+    <title>faqs</title>
+</head>
+<body class="font-inter">
+    <section class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full sm:w-auto px-4 sm:px-0 h-auto sm:h-5/6 xl:h-auto">
+        <h2 class="sm:text-lg text-base font-semibold text-black-Neutral">Send your question</h2>
+        <div class="flex sm:flex-row flex-col sm:mt-10 mt-8   gap-4 w-full">
+            <div class="flex  items-center rounded-full border border-gray-demo px-4 sm:py-4  h-12   w-full sm:w-60 xl:w-341">
+                <input type="text" placeholder="Name" class="text-xs text-gray-dark font-normal">
+            </div>
+            <div class="bg-white rounded-3xl  h-12 flex  gap-0 xl:gap-2 items-center border border-gray-demo w-full sm:w-60  xl:w-341">
+                <a href="#">
+                <div class="flex items-center gap-1 sm:gap-0 xl:gap-2 border-e-2 px-2 xl:px-4">
+                    <img src="./assets/img/KSA.svg" alt="ksa">
+                    <span class="text-xs xl:text-sm text-black-#18202F font-normal">+966</span>
+                    <img src="./assets/img/chevron-downflight.svg" alt="chevron">
+                </div>
+                </a>
+                <input class="placeholder:text-xs placeholder:text-gray-textsoft placeholder:font-normal w-36  px-4 sm:px-1"  type="text"placeholder="Your phone number">
+            </div>
+        </div>
+        <div class="flex items-center my-4   rounded-full border border-gray-demo h-12 px-4">
+            <input type="text" placeholder="email" class="text-xs font-normal">
+        </div>
+        <textarea id="message" rows="7" class="block p-2.5 w-full text-xs text-gray-textsoft border rounded-lg" placeholder="Enter your question"></textarea>
+        <div class=" flex sm:justify-end justify-center sm:mt-12 mt-6 mb-6 pb-0 sm:pb-8 xl:pb-0">
+            <button class="sm:text-lg text-base font-bold text-white bg-red-soft rounded-full sm:py-3.5 sm:px-12 py-2.5 px-10">send</button>
+        </div>
+    </section>
+</body>
+</html>

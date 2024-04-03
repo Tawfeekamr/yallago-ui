@@ -42,10 +42,9 @@
                         
                     </div>
                 </div>
-                <div class="px-4 xl:px-0">
+                <div class="px-4 xl:px-0 hidden md:block">
                     <div class="max-w-screen-xl mx-auto w-full h-16 bg-white rounded-full flex justify-between items-center px-2 sm:px-1 xl:px-1">
                         <div class="flex justify-between items-center w-full md:w-1/3 px-2 mx-2 border-r-2" >
-                        
                         <a href="#">
                             <div class="flex justify-between gap-2 ">
                                 <img src="./assets/img/Location-travel.svg" alt="location">
@@ -53,16 +52,13 @@
                                 <p class="text-xs font-normal text-gray-textsoft">Going to</p>
                                 <span class="text-sm text-gray-dark font-normal">Dubai, UAE</span>
                                </div>
-                              
                             </div>
                         </a>
                          <a href="#">
                             <img src="./assets/img/Arrow-Down-travel.svg" alt="arrow">
                          </a>
                         </div>
-                        
-                         <div class="sm:flex justify-between items-center gap-2 w-full md:w-1/3 px-2 mx-2 border-r-2 hidden" >
-                        
+                         <div class="flex justify-between items-center gap-2 w-full md:w-1/3 px-2 mx-2 border-r-2" >
                             <a href="#">
                                 <div class="flex justify-between gap-2">
                                     <img src="./assets/img/Calendaredit-travel.svg" alt="calender">
@@ -70,17 +66,13 @@
                                     <p class="text-xs font-normal text-gray-textsoft">Select Date</p>
                                     <span class="text-sm text-gray-dark font-normal">Mon, Apr 8</span>
                                    </div>
-                                  
                                 </div>
                             </a>
                             <a href="#">
                                 <img src="./assets/img/Arrow-Down-travel.svg" alt="arrow">
                             </a>
                             </div>
-                     
-                   
-                         <div class="md:flex justify-between items-center gap-2 w-full md:w-1/3 px-2 mr-3 hidden" >
-                        
+                         <div class="flex justify-between items-center gap-2 w-full md:w-1/3 px-2 mr-3" >
                             <a href="#">
                                 <div class="flex justify-between gap-2">
                                     <img src="./assets/img/Profileedit-travel.svg" alt="location">
@@ -88,20 +80,45 @@
                                     <p class="text-xs font-normal text-gray-textsoft">Guests</p>
                                     <span class="text-sm text-gray-dark font-normal">2 Adults, 1 Child</span>
                                    </div>
-                                  
                                 </div>
                             </a>
                             <a href="#">
                                 <img src="./assets/img/Arrow-Down-travel.svg" alt="arrow">
                             </a>
                             </div>
-                       
                      <button class=" py-3.5 px-5 bg-red-soft rounded-full text-base md:text-lg xl:text-xl font-semibold text-white ">Search</button>
                     </div>
                 </div>
-                
+                <div class="flex justify-center gap-4 md:hidden">
+                    <button>
+                            <svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="22.5" cy="22.5" r="22.5" fill="white"/>
+                            <path d="M18.8333 22.1667H20.5V23.8334H18.8333V22.1667ZM30.5 18.0001V29.6667C30.5 30.5834 29.75 31.3334 28.8333 31.3334H17.1667C16.2417 31.3334 15.5 30.5834 15.5 29.6667L15.5083 18.0001C15.5083 17.0834 16.2417 16.3334 17.1667 16.3334H18V14.6667H19.6667V16.3334H26.3333V14.6667H28V16.3334H28.8333C29.75 16.3334 30.5 17.0834 30.5 18.0001ZM17.1667 19.6667H28.8333V18.0001H17.1667V19.6667ZM28.8333 29.6667V21.3334H17.1667V29.6667H28.8333ZM25.5 23.8334H27.1667V22.1667H25.5V23.8334ZM22.1667 23.8334H23.8333V22.1667H22.1667V23.8334Z" fill="#323232"/>
+                            </svg>
+                    </button>
+                    <div class="w-3/5 h-12 bg-white rounded-full flex items-center justify-between px-1">
+                        <div class="flex space-x-2 px-2">
+                            <button><img class="" src="./assets/img/Search-travel.svg" alt="Search"></button>
+                            <input class="block md:hidden w-20 placeholder:text-xs xl:placeholder:text-xl placeholder:text-gray-dark font-medium" type="text" placeholder="Find location" />
+                        </div>
+                      <button class="py-2 px-3 bg-red-soft rounded-full text-base md:text-lg xl:text-xl font-medium text-white ">Search</button>
+                    </div>
+                    <button>
+                        <svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="22.5" cy="22.5" r="22.5" fill="white"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M21.4002 28.4939H16.1494C15.8044 28.4939 15.5244 28.2139 15.5244 27.8689C15.5244 27.5239 15.8044 27.2439 16.1494 27.2439H21.4002C21.7452 27.2439 22.0252 27.5239 22.0252 27.8689C22.0252 28.2139 21.7452 28.4939 21.4002 28.4939" fill="#222222"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M28.9922 20.417H23.7422C23.3972 20.417 23.1172 20.137 23.1172 19.792C23.1172 19.447 23.3972 19.167 23.7422 19.167H28.9922C29.3372 19.167 29.6172 19.447 29.6172 19.792C29.6172 20.137 29.3372 20.417 28.9922 20.417" fill="#222222"/>
+                        <mask id="mask0_2377_1407" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="15" y="17" width="6" height="6">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M15.5 17.167H20.6882V22.3267H15.5V17.167Z" fill="white"/>
+                        </mask>
+                        <g mask="url(#mask0_2377_1407)">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M18.0942 18.4167C17.3533 18.4167 16.75 19.0134 16.75 19.7476C16.75 20.4809 17.3533 21.0767 18.0942 21.0767C18.8358 21.0767 19.4383 20.4809 19.4383 19.7476C19.4383 19.0134 18.8358 18.4167 18.0942 18.4167M18.0942 22.3267C16.6642 22.3267 15.5 21.1701 15.5 19.7476C15.5 18.3251 16.6642 17.1667 18.0942 17.1667C19.525 17.1667 20.6883 18.3251 20.6883 19.7476C20.6883 21.1701 19.525 22.3267 18.0942 22.3267" fill="#222222"/>
+                        </g>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M27.4895 26.5066C26.7479 26.5066 26.1445 27.1033 26.1445 27.8366C26.1445 28.5708 26.7479 29.1666 27.4895 29.1666C28.2304 29.1666 28.8329 28.5708 28.8329 27.8366C28.8329 27.1033 28.2304 26.5066 27.4895 26.5066M27.4895 30.4166C26.0587 30.4166 24.8945 29.2591 24.8945 27.8366C24.8945 26.4141 26.0587 25.2566 27.4895 25.2566C28.9195 25.2566 30.0829 26.4141 30.0829 27.8366C30.0829 29.2591 28.9195 30.4166 27.4895 30.4166" fill="#222222"/>
+                        </svg>
+                    </button>
+                </div>
         </section>
-       
         <section class="max-w-screen-xl mx-auto  mt-14">
             <div class="flex justify-between w-full px-2 xl:px-0">
                 <a href="#">

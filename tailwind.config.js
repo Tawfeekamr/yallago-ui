@@ -19,12 +19,19 @@ module.exports = {
            grayborder:"#F0F0F0",
            text:"#9B9DA3",
            textsoft:"#B7B7B7",
-           range:"#E3E9ED"
+           range:"#E3E9ED",
+           place:"#B7B7B7;",
+           demo:"#ECEAEA",
+           "#f9f9f9":"#f9f9f9",
+           "#e4e4e4":"#e4e4e4",
+           "#F2F2F2":"#F2F2F2"
          },
         black: {
            soft: "#121212",
            dark:"#18202F",
-           "#000":"#000000"
+           Neutral:"#200E32",
+           "#000":"#000000",
+           "#18202F":"#18202F"
         },
         pink: {
            soft: "#FF626A"
@@ -33,11 +40,14 @@ module.exports = {
            soft: "#ED4D55",
            dark:"#D41E27",
            rounded:"#F44A4A",
-           textpackage:"#F06A71"
+           button:"#FF626A",
+           textpackage:"#F06A71",
+           "#F44A4A":"#F44A4A"
         },
         purple: {
           dark: "#5137A6",
           soft:"#8A69F6",
+         
         },
         green:{
           soft:"#34B166"
@@ -55,9 +65,13 @@ module.exports = {
         '551':'34.438rem'
       },
       width:{
-        '462':'28.875rem'
-      }
-      
+        '462':'28.875rem',
+        '341': '21.313rem',
+        '312':'19.5rem',
+        '616':'38.5rem',
+        '107':'6.688rem'
+      },
+     
     },
   },
   plugins: [],
