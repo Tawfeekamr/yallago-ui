@@ -40,27 +40,27 @@
             <div class="flex justify-between  flex-wrap sm:flex-nowrap px-2 xl:px-0 gap-2">
                 <div class="max-w-3xl bg-gray-#f9f9f9 rounded-md p-6 w-full">
                     <h5 class="text-lg font-medium text-black-soft mb-6">Guest Details</h5>
-                    <div class="flex gap-4">
+                    <div class="flex flex-col lg:flex-row gap-4">
                         <div class="bg-white rounded-3xl w-full xl:w-1/2 h-12 flex items-center px-4">
-                            <input class="placeholder:text-sm placeholder:text-gray-textsoft placeholder:font-normal w-28" type="text" placeholder="Guest Name">
+                            <input class="placeholder:text-xs  placeholder:text-gray-textsoft placeholder:font-normal w-28" type="text" placeholder="Guest Name">
                         </div>
-                            <div class="bg-white rounded-3xl w-full xl:w-1/2 h-12 flex  gap-0 xl:gap-2 items-center ">
-                            <a href="#">
-                            <div class="flex items-center gap-0 xl:gap-2 border-e-2 px-2 xl:px-4">
-                                <img src="./assets/img/KSA.svg" alt="ksa">
-                                <span class="text-xs xl:text-sm text-black-#18202F font-normal">+966</span>
-                                <img src="./assets/img/chevron-downflight.svg" alt="chevron">
-                            </div>
-                            </a>
-                            <input class="placeholder:text-xs xl:placeholder:text-sm placeholder:text-gray-textsoft placeholder:font-normal w-16 xl:w-40"  type="number" placeholder="Your phone number">
-                            </div>
+                        <div class="bg-white rounded-3xl w-full xl:w-1/2 h-12 flex gap-2 items-center ">
+                        <a href="#">
+                        <div class="flex items-center gap-2 border-e-2 px-4">
+                            <img src="./assets/img/KSA.svg" alt="ksa">
+                            <span class="text-xs xl:text-sm text-black-#18202F font-normal">+966</span>
+                            <img src="./assets/img/chevron-downflight.svg" alt="chevron">
+                        </div>
+                        </a>
+                        <input class="placeholder:text-xs placeholder:text-gray-textsoft placeholder:font-normal w-40"  type="number" placeholder="Your phone number">
+                        </div>
                     </div>
                     <div class="bg-white rounded-3xl h-12 flex items-center px-4 mt-4">
-                        <input class="placeholder:text-sm placeholder:text-gray-textsoft placeholder:font-normal " type="email" placeholder="Email">
+                        <input class="placeholder:text-xs  placeholder:text-gray-textsoft placeholder:font-normal " type="email" placeholder="Email">
                     </div>
                     <h5 class="text-lg font-medium text-black-soft mt-10">Flight Details</h5>
                     <div class="bg-white rounded-3xl h-12 flex justify-between items-center px-4 mt-4">
-                        <input class="placeholder:text-sm placeholder:text-gray-textsoft placeholder:font-normal " type="email" placeholder="Flight Type">
+                        <input class="placeholder:text-xs  placeholder:text-gray-textsoft placeholder:font-normal " type="email" placeholder="Flight Type">
                        <a href="#">
                         <img src="./assets/img/arrow-inp.svg" alt="arrow">
                        </a>
@@ -68,20 +68,20 @@
                     
                     <div class="flex  mt-6">
                     <div class="bg-white rounded-l-3xl w-full xl:w-1/2 h-12 flex items-center px-4">
-                        <input class="placeholder:text-sm placeholder:text-gray-textsoft placeholder:font-normal w-20 xl:w-40" type="text" placeholder="From">
+                        <input class="placeholder:text-xs  placeholder:text-gray-textsoft placeholder:font-normal w-20 xl:w-40" type="text" placeholder="From">
                     </div>
                     <img src="./assets/img/flight.svg" alt="flight">
                     <div class="bg-white rounded-r-3xl w-full xl:w-1/2 h-12 flex justify-between px-4 items-center ">
-                    <input class="placeholder:text-sm xl:placeholder:text-sm placeholder:text-gray-textsoft placeholder:font-normal w-16 xl:w-40"  type="text" placeholder="To">
+                    <input class="placeholder:text-xs  placeholder:text-gray-textsoft placeholder:font-normal w-16 xl:w-40"  type="text" placeholder="To">
                     </div>
                     </div>
-                    <div class="flex gap-4 mt-6">
+                    <div class="flex flex-col lg:flex-row gap-4 mt-6">
                         <div class="bg-white rounded-3xl w-full xl:w-1/2 h-12 flex justify-between items-center px-4 xl:px-4">
-                            <input class="placeholder:text-sm placeholder:text-gray-textsoft placeholder:font-normal w-20 xl:w-40" type="text" placeholder="Date of Travel">
+                            <input class="placeholder:text-xs  placeholder:text-gray-textsoft placeholder:font-normal w-full" type="text" placeholder="Date of Travel">
                             <img src="./assets/img/calenderflight.svg" alt="calender">
                         </div>
-                            <div class="bg-white rounded-3xl w-full xl:w-1/2 h-12 flex justify-between px-4 xl:px-4 items-center ">
-                            <input class="placeholder:text-xs xl:placeholder:text-sm placeholder:text-gray-textsoft placeholder:font-normal w-16 xl:w-40"  type="text" placeholder="Class">
+                        <div class="bg-white rounded-3xl w-full xl:w-1/2 h-12 flex justify-between px-4 xl:px-4 items-center ">
+                            <input class="placeholder:text-xs  placeholder:text-gray-textsoft placeholder:font-normal w-full"  type="text" placeholder="Class">
                             <a href="#">
                                 <img src="./assets/img/arrow-inp.svg" alt="arrow">
                             </a>
@@ -107,9 +107,9 @@
                     </div>
                     <button class="py-3.5 px-10 bg-red-soft rounded-full flex gap-1 mt-10"><img src="./assets/img/plusflight.svg" alt="plus"> <span class="text-xl font-medium text-white">Add Flight</span></button>
                 </div>
-                <div class="w-full sm:max-w-md max-h-48 p-6 border border-gray-lighter mt-10 sm:mt-0 rounded-md">
+                <div class="w-full sm:max-w-md max-h-60 p-6 border border-gray-lighter mt-10 sm:mt-0 rounded-md">
                     <div class="flex items-start justify-between">
-                    <h5 class="text-xl font-semibold text-black-dark">Flight Summary</h5>
+                    <h5 class="text-xl xl:text-2xl font-semibold text-black-dark">Flight Summary</h5>
                         <div >
                             <p class="text-xs font-semibold text-gray-text mb-3"># F202401</p>
                             <div class="flex gap-1">
@@ -117,6 +117,23 @@
                                 <span class="text-xs font-semibold text-gray-text">24 Jan 2023</span>
                             </div>
                         </div>
+                    </div>
+                    <div class="flex items-center justify-between mt-12">
+                        <a href="#"><img src="./assets/img/nigflight.svg" alt="nigative"></a>
+                        <svg width="269" height="22" viewBox="0 0 269 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9 11H260" stroke="#E1E2E3" stroke-dasharray="3 2"/>
+                            <circle cx="4" cy="4" r="4.5" transform="matrix(-1 0 0 1 9 7)" fill="white" stroke="#D9D9D9"/>
+                            <circle cx="2" cy="2" r="2" transform="matrix(-1 0 0 1 7 9)" fill="#D9D9D9"/>
+                            <circle cx="4" cy="4" r="4.5" transform="matrix(-1 0 0 1 268 7)" fill="white" stroke="#D9D9D9"/>
+                            <circle cx="2" cy="2" r="2" transform="matrix(-1 0 0 1 266 9)" fill="#D9D9D9"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M145.723 12.556L146.44 12.2252C146.781 12.0693 146.999 11.7323 147 11.3612V10.6591C146.999 10.288 146.781 9.95105 146.44 9.7951L145.723 9.46434C145.21 9.22548 144.65 9.10101 144.083 9.09982H138.182L132.643 0.803665C132.562 0.711955 132.476 0.626216 132.383 0.547137C132.03 0.188512 131.543 -0.00949388 131.037 0.00035031H130.805C130.681 -0.00410129 130.561 0.0452282 130.477 0.135382C130.363 0.248337 130.316 0.412033 130.354 0.567405L133.285 9.10659L128.052 9.52507L124.842 5.7719C124.666 5.60285 124.432 5.50633 124.186 5.50188H123.462C123.313 5.50227 123.173 5.57404 123.086 5.69456C122.999 5.81508 122.977 5.96958 123.025 6.10943L124.678 11.0102L123.025 15.9109C122.977 16.0508 122.999 16.2052 123.086 16.3258C123.173 16.4463 123.313 16.5181 123.462 16.5184H124.186C124.432 16.514 124.666 16.4175 124.842 16.2484L128.093 12.4412L133.285 12.9138L130.334 21.4327C130.296 21.588 130.342 21.7517 130.457 21.8647C130.541 21.9548 130.661 22.0042 130.785 21.9997H131.017C131.511 22.0057 131.987 21.8133 132.335 21.4664C132.428 21.3874 132.515 21.3016 132.595 21.2099L138.182 12.9205H144.083C144.65 12.9193 145.21 12.7949 145.723 12.556Z" fill="#5137A6"/>
+                        </svg>
+                        <a href="#"><img src="./assets/img/nigflight.svg" alt="nigative"></a>
+                    </div>
+                    <p class="mt-2 text-xs text-gray-text font-semibold">28 Jan 2023</p>
+                    <div class="flex justify-between items-center mt-4">
+                        <span class="mt-2 text-xs text-gray-text font-semibold">2 ADT - 4 CHD - 1 INFT</span>
+                        <span class="mt-2 text-xs text-gray-text font-semibold">Economy</span>
                     </div>
                 </div>
                
@@ -127,9 +144,84 @@
             </div>
             
         </section>
-        
-
     </main>
-    
+    <footer class="bg-black-soft mt-14 lg:mt-40">
+        <div class="max-w-screen-xl mx-auto grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4  py-12 space-y-10 sm:space-y-0 text-center sm:text-start px-2 sm:px-4">
+            <div class="mb-0 sm:mb-8  lg:mb-0">
+                <ul class="text-xs md:text-base  lg:text-lg font-medium  space-y-4">
+                    <li class="flex justify-center sm:justify-start"><a href="./index.html" ><img  src="./assets/img/logofooter.svg" alt="logo-light"></a></li>
+                    <li class="text-gray-dark  "><a href="#"  >128 Market St. 20193<br> Riyadh, KSA</a></li>
+                    <li class="text-gray-dark "><a href="#" >128 Market St. 20193 <br>Dubai, UAE</a></li>
+                    <li ><a href="#" ><span class="text-lg md:text-xl text-white">Get the App</span></a></li>
+                    <li ><a href="#"><button  class="py-3.5 px-14 lg:px-14 lg:py-2 text-base xl:text-lg bg-white  text-black-soft rounded-3xl" type="button">Download app</button></a></li>
+                    
+                </ul>
+            </div>
+            <div class="text-gray-dark text-xs md:text-base  lg:text-lg font-medium">
+                <ul class=" space-y-4">
+                    <li ><a href="./packages.html">Packages</a></li>
+                    <li ><a href="./flight.html">Flight Tickets</a></li>
+                    <li ><a href="./details.html">Booking Hotels</a></li>
+                    <li ><a href="#">Transportations</a></li>
+                    <li ><a href="./flight-visa.html">Apply Visa</a></li>
+                    <li ><a href="./Insurance.html">Apply Insurance</a></li>
+                  
+                </ul>
+            </div>
+            <div class="text-gray-dark text-xs md:text-base  lg:text-lg font-medium">
+                <ul class=" space-y-4" >
+                    <li ><a href="./visa.html">Visa Checker</a></li>
+                    <li ><a href="./policy.html">Privacy Policy</a></li>
+                    <li ><a href="./terms-condition.html">Terms & Conditions</a></li>
+                    <li ><a href="./blog-article.html">Articles & Blogs</a></li>
+                    <li ><a href="./center.html">FAQs</a></li>
+                    <li ><a href="./about-us.html">About Us</a></li>
+                    
+                </ul>
+            </div>
+            <div class="text-gray-dark text-xs md:text-base  lg:text-lg font-medium">
+                <ul class="space-y-4">
+                    <li><a href="#"><span class="text-lg md:text-xl text-white">Contact Us</span></a></li>
+                   <div class="flex justify-center sm:justify-start flex-row sm:flex-col space-y-0 sm:space-y-4 space-x-4 sm:space-x-0">
+                    <li class="flex items-center space-x-2" >
+                        <a href="#" ><span><img src="./assets/img/KSA.svg" alt="KSA"> </span></a>
+                        <span>00966</span>
+
+                    </li>
+                    <li class="flex items-center space-x-2">
+                        <a href="#" class="" ><span><img src="./assets/img/UAE.svg" alt="UAE"> </span></a>
+                        <span>00971</span>
+                    </li>
+                   </div>
+                    <li class="flex space-x-5 justify-center sm:justify-start ">
+                        <div class="bg-white w-9 h-9 rounded-full flex justify-center items-center">
+                        <a href="#" ><img src="./assets/img/facebook.svg" alt="facebook"></a>
+                        </div>
+                        <div class="bg-white w-9 h-9 rounded-full flex justify-center items-center">
+                        <a href="#" ><img src="./assets/img/whatsapp.svg" alt="whatsapp"></a>
+                        </div>
+                        <div class="bg-white w-9 h-9 rounded-full flex justify-center items-center">
+                            <a href="#"><img src="./assets/img/linkedin.svg" alt="linkedin"></a>
+                        </div>
+                        <div class="bg-white w-9 h-9 rounded-full flex justify-center items-center">
+                        <a href="#"><img src="./assets/img/instagram.svg" alt="instagram"></a>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="max-w-screen-xl mx-auto mt-5">
+            <hr>
+        </div>
+        <div class="max-w-screen-xl mx-auto text-gray-dark font-medium flex sm:justify-between sm:flex-row flex-col text-center space-y-6 sm:space-y-0 pt-8 pb-14 px-2 xl:px-0"> 
+            <span class= "text-xs md:text-base  lg:text-lg">
+                <a href="#">© 2022 Yallabook • All rights reserved.</a>
+            </span>
+            <span class=" text-xs md:text-base  lg:text-lg ">
+                <a href="#">Powered by Yalla Travel KSA and Rezbook UAE</a>
+            </span>
+        </div>
+    </footer>
 </body>
 </html>
